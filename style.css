@@ -3,6 +3,7 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    
 }
 
 #tentacles {
@@ -74,4 +75,13 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#searchbar {
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+    width: 30%;
 }
