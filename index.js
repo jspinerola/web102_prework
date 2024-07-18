@@ -72,8 +72,7 @@ searchBar.addEventListener("keyup", (e) => {
 
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
-addGamesToPage(GAMES_JSON);
-
+filterFundedOnly();
 /*************************************************************************************
  * Challenge 4: Create the summary statistics at the top of the page displaying the
  * total number of contributions, amount donated, and number of games on the site.
@@ -141,8 +140,6 @@ function showAllGames() {
   // add all games from the JSON data to the DOM
   addGamesToPage(GAMES_JSON);
 }
-
-
 
 // select each button in the "Our Games" section
 const unfundedBtn = document.getElementById("unfunded-btn");
